@@ -3,8 +3,7 @@
         "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "rector/rector-prefixed": "dev-main"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload-dev": {
         "psr-4": {
