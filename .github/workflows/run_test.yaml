@@ -19,4 +19,4 @@ jobs:
                     coverage: none
 
             -   uses: "ramsey/composer-install@v1"
-            -   run: vendor/bin/phpunit utils/tests/Rector/RenameSimpleRectorTest.php
+            -   run: vendor/bin/phpunit
