@@ -6,6 +6,10 @@ on:
         branches:
             - main
 
+    schedule:
+        # see https://crontab.guru/every-day-8am
+        - cron: 0 8 * * *
+
 jobs:
     run_test:
         runs-on: ubuntu-latest
