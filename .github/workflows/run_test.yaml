@@ -21,9 +21,6 @@ jobs:
                     -
                         name: 'Rector'
                         run: composer require rector/rector:dev-main --dev
-                    -
-                        name: 'Rector Prefixed'
-                        run: composer require rector/rector-prefixed:dev-main --dev
 
         name: ${{ matrix.actions.name }}
 
