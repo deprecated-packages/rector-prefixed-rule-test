@@ -20,7 +20,7 @@ jobs:
                 actions:
                     -
                         name: 'Rector'
-                        run: composer require rector/rector:dev-main --dev
+                        run: composer require rector/rector --dev
 
         name: ${{ matrix.actions.name }}
 
